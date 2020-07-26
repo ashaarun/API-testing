@@ -1,7 +1,7 @@
 Status: FAILED
-Time Taken: 323
+Time Taken: 272
 Size: 82
-Timestamp: Sun Jul 26 12:51:54 IST 2020
+Timestamp: Sun Jul 26 13:37:57 IST 2020
 TestStep: New Customer
 
 ----------------- Messages ------------------------------
@@ -15,7 +15,7 @@ StatusCode: 400
 URL: http://rest-api.upskills.in/api/rest_admin/customers
 
 ---------------- Request ---------------------------
-Authorization: [bearer 5433bde033ac0e21a4da6e42e736407faa61b637]
+Authorization: [bearer 462c55d6272ee84c06e18594d0a894d4deef7896]
 Connection: [Keep-Alive]
 User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
 Host: [rest-api.upskills.in]
@@ -26,16 +26,16 @@ Content-Type: [application/json]
 POST http://rest-api.upskills.in/api/rest_admin/customers HTTP/1.1
 Accept-Encoding: gzip,deflate
 Content-Type: application/json
-Authorization: bearer 5433bde033ac0e21a4da6e42e736407faa61b637
+Authorization: bearer 462c55d6272ee84c06e18594d0a894d4deef7896
 Content-Length: 153
 Host: rest-api.upskills.in
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
 
 {
-"firstname": "Asha02",
+"firstname": "Asha41",
 "lastname": "Arun",
-"email": "ashaarun13@gmail.com",
+"email": "ashaarun41@gmail.com",
 "password": "asha01",
 "confirm": "asha01", 
 "telephone": "1-541-754-3010"
@@ -44,10 +44,10 @@ User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
 ---------------- Response --------------------------
 Server: [LiteSpeed]
 Connection: [Keep-Alive]
-Set-Cookie: [OCSESSID=40c60a05e162915eb32d24fc85; path=/, language=en-gb; expires=Tue, 25-Aug-2020 07:21:52 GMT; Max-Age=2592000; path=/; domain=rest-api.upskills.in, currency=INR; expires=Tue, 25-Aug-2020 07:21:52 GMT; Max-Age=2592000; path=/; domain=rest-api.upskills.in]
+Set-Cookie: [OCSESSID=9d835132d40c94bbf2bc265d21; path=/, language=en-gb; expires=Tue, 25-Aug-2020 08:07:55 GMT; Max-Age=2592000; path=/; domain=rest-api.upskills.in, currency=INR; expires=Tue, 25-Aug-2020 08:07:55 GMT; Max-Age=2592000; path=/; domain=rest-api.upskills.in]
 #status#: [HTTP/1.1 400 Bad Request]
 Content-Length: [82]
-Date: [Sun, 26 Jul 2020 07:21:52 GMT]
+Date: [Sun, 26 Jul 2020 08:07:55 GMT]
 X-Powered-By: [PHP/5.6.40]
 Content-Type: [application/json; charset=utf-8]
 

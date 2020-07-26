@@ -96,9 +96,9 @@ assert ['HTTP/1.1 200 OK'] == headers["#status#"] : "Assertion failed"</scriptTe
   <con:entry key="added_from" value="${#TestSuite#added_from}"/>
   <con:entry key="added_to" value="${#TestSuite#added_to}"/>
 </con:parameters><con:parameterOrder><con:entry>added_from</con:entry><con:entry>added_to</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="e6af69f9-6bd5-4c5d-9c18-3c757ba096f3" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TC_007" searchProperties="true"><con:settings/><con:testStep type="restrequest" name="New Customer" id="378d402d-675c-4bc9-8f7d-f5e57d5a56f1"><con:settings/><con:config service="http://rest-api.upskills.in" resourcePath="/api/rest_admin/customers" methodName="New Customer Request" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="New Customer" id="f529046b-5e20-4469-a7b2-7457fd815e6d" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="bearer ${#TestSuite#accessToken}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>http://rest-api.upskills.in</con:endpoint><con:request>{
-"firstname": "Asha04",
+"firstname": "Asha42",
 "lastname": "Arun",
-"email": "ashaarun17@gmail.com",
+"email": "ashaarun42@gmail.com",
 "password": "asha01",
 "confirm": "asha01", 
 "telephone": "1-541-754-3010"
@@ -136,9 +136,9 @@ else{
 
 }
 </scriptText></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:parameterOrder/></con:restRequest></con:config></con:testStep><con:properties><con:property><con:name>custid</con:name><con:value>1202</con:value></con:property></con:properties></con:testCase><con:testCase id="36a7f4da-c79f-4311-bedc-369c1a35ce24" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TC_008" searchProperties="true"><con:settings/><con:testStep type="restrequest" name="New Customer" id="b6f7f3ff-5361-4cc9-ba35-4fa55bf34f96"><con:settings/><con:config service="http://rest-api.upskills.in" resourcePath="/api/rest_admin/customers" methodName="New Customer Request" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="New Customer" id="f529046b-5e20-4469-a7b2-7457fd815e6d" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="bearer ${#TestSuite#accessToken}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>http://rest-api.upskills.in</con:endpoint><con:request>{
-"firstname": "Asha07",
+"firstname": "Asha43",
 "lastname": "Arun",
-"email": "ashaarun18@gmail.com",
+"email": "ashaarun43@gmail.com",
 "password": "asha01",
 "confirm": "asha01", 
 "telephone": "1-541-754-3010"
@@ -176,9 +176,9 @@ else{
 
 }
 </scriptText></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:parameterOrder/></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="Put_customer_id" id="5fc200b4-094f-40b1-9371-4f3bcaa3b466"><con:settings/><con:config service="http://rest-api.upskills.in" resourcePath="/api/rest_admin/customers/${#TestSuite#custid}" methodName="Put_customer_id" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Put_customer_id" id="c3e0ed3c-3f95-41c8-b453-5d4248c2144f" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Authorization" value="bearer ${#TestSuite#accessToken}" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>http://rest-api.upskills.in</con:endpoint><con:request>{
-"firstname": "Asha07modify",
+"firstname": "Asha43modify",
 "lastname": "Arun",
-"email": "ashaarun18@gmail.com",
+"email": "ashaarun43@gmail.com",
 "password": "asha01",
 "confirm": "asha01", 
 "telephone": "1-541-754-3010"
